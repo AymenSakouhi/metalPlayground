@@ -1,4 +1,3 @@
-````markdown
 # Metal.build Documentation Enhancements
 
 This document outlines actionable improvements for Metal's documentation
@@ -142,4 +141,3 @@ const avatar = await metal.storage
   .bucket("profile-images")
   .upload(file, { upsert: true });
 ```
-````
