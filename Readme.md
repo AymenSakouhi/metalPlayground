@@ -30,7 +30,6 @@ metal.functions.on("paymentProcessed", async (data) => {
   await metal.db("transactions").insert(data);
 });
 ```
-````
 
 **Suggested Additions:**
 
@@ -143,3 +142,4 @@ const avatar = await metal.storage
   .bucket("profile-images")
   .upload(file, { upsert: true });
 ```
+````
